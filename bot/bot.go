@@ -26,3 +26,7 @@ func StartBot() {
 		time.Sleep(100 * time.Millisecond)
 	}
 }
+
+func SendError(fix string) string {
+	return fix
+}
